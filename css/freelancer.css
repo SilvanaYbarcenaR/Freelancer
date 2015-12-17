@@ -10,7 +10,7 @@ header .navbar{
 li{
 	padding:0 25px!important;
 }
-a{
+header a, .list-inline a{
 color:#FFFFFF;
 }
 .header{
@@ -117,8 +117,8 @@ h3{
 }
 .btn-social {
     display: inline-block;
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     border: 2px solid #fff;
     border-radius: 100%;
     text-align: center;
@@ -126,7 +126,11 @@ h3{
     line-height: 35px;
 }
 .list-inline li{
-padding: 0 5px!important;
+	padding: 10px!important;
+}
+.list-inline a:hover{
+	color:#18bc9C;
+	background:#FFFFFF;
 }
 .rowfooter{
 	padding: 30px 0;
